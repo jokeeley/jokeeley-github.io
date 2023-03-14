@@ -1,0 +1,19 @@
+.navbar-brand{
+    font-family: 'Roboto Slab', serif;
+} 
+
+.nav-link{
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, #d2d20f, #eb9c0b, red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p{
+    font-family: 'Roboto Slab', serif;
+}
