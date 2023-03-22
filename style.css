@@ -1,9 +1,17 @@
-.navbar-brand{
+.navbar-brand {
     font-family: 'Roboto Slab', serif;
-} 
+}
 
-.nav-link{
+.nav-link {
     font-family: 'Roboto Slab', serif;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+}
+
+.cont {
+    margin: 40px 150px;
 }
 
 h1 {
@@ -14,28 +22,16 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 
-p{
-    font-family: 'Roboto Slab', serif;
-}
-
-.cont {
-    margin: 40px 150px;
-}
-
-h1{
-    font-family: 'Roboto Slab', serif;
-    font-size: 60px; 
-}
-
-h2{
+h2 {
     font-family: 'Roboto Slab', serif;
     font-size: 35px;
     margin: 10px 0;
 }
 
-.Pic{
+.Pic {
+    width: 500px;
     height: 500px;
     display: flex;
-    align-items: center;
-    justify-content: center; 
+    position: relative;
+    float: right;
 }

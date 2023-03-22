@@ -6,6 +6,15 @@
     font-family: 'Roboto Slab', serif;
 }
 
+#aboutPix{
+    width: 500px;
+    height: 500px;
+    margin-block: 5px;
+    display: flex;
+    position: relative;
+    float: left;
+}
+
 h1 {
     font-family: 'Roboto Slab', serif;
     background-image: linear-gradient(to left, violet, indigo, blue, green, #d2d20f, #eb9c0b, red);
