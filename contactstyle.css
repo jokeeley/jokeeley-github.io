@@ -1,8 +1,8 @@
-.navbar-brand{
+.navbar-brand {
     font-family: 'Roboto Slab', serif;
-} 
+}
 
-.nav-link{
+.nav-link {
     font-family: 'Roboto Slab', serif;
 }
 
@@ -14,6 +14,86 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 
-p{
+p {
     font-family: 'Roboto Slab', serif;
+}
+
+div {
+    font-family: 'Roboto Slab', serif;
+    margin: auto;
+}
+
+input[type=text],
+textarea {
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    font-family: 'Roboto Slab', serif;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, #d2d20f, #eb9c0b, red);
+    color: aliceblue;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a[href="mailto:jokeeleywork@gmail.com"]:link {
+    font-family: 'Roboto Slab', serif;
+    color: rgb(53, 46, 201);
+}
+
+a[href="mailto:jokeeleywork@gmail.com"]:visited {
+    color: rgb(217, 52, 192);
+}
+
+a[href="mailto:jokeeleywork@gmail.com"]:hover {
+    color: rebeccapurple;
+}
+
+a[href="mailto:jokeeleywork@gmail.com"]:active {
+    color: rgb(31, 157, 189);
+}
+
+a[href="tel:+1(270)799-9699"]:link {
+    font-family: 'Roboto Slab', serif;
+    color: rgb(53, 46, 201);
+}
+
+a[href="tel:+1(270)799-9699"]:visited {
+    color: rgb(217, 52, 192);
+}
+
+a[href="tel:+1(270)799-9699"]:hover {
+    color: rebeccapurple;
+}
+
+a[href="tel:+1(270)799-9699"]:active {
+    color: rgb(31, 157, 189);
+}
+
+.icons {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, #d2d20f, #eb9c0b, red);
+    font-size: 48px;
+    margin: 0 10px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position:-webkit-sticky;
+    position: sticky;
+    bottom: 0;
+}
+
+a [href="https://www.linkedin.com/in/josie-keeley-008123140"]:visited{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, #d2d20f, #eb9c0b, red);
+    font-size: 48px;
+    margin: 0 10px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
