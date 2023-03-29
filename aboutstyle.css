@@ -1,12 +1,12 @@
-.navbar-brand{
-    font-family: 'Roboto Slab', serif;
-} 
-
-.nav-link{
+.navbar-brand {
     font-family: 'Roboto Slab', serif;
 }
 
-#aboutPix{
+.nav-link {
+    font-family: 'Roboto Slab', serif;
+}
+
+#aboutPix {
     width: 500px;
     height: 500px;
     margin-block: 5px;
@@ -23,6 +23,23 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 
-p{
+p {
     font-family: 'Roboto Slab', serif;
+}
+
+a[href="https://drive.google.com/file/d/1PVzYuXZtlxQZ35LHXgKj0Ir2pjjreHGb/view?usp=sharing"]:link {
+    font-family: 'Roboto Slab', serif;
+    color: rgb(217, 52, 192);
+}
+
+a[href="https://drive.google.com/file/d/1PVzYuXZtlxQZ35LHXgKj0Ir2pjjreHGb/view?usp=sharing"]:visited {
+    color: rgb(53, 46, 201);
+}
+
+a[href="https://drive.google.com/file/d/1PVzYuXZtlxQZ35LHXgKj0Ir2pjjreHGb/view?usp=sharing"]:hover {
+    color: rebeccapurple;
+}
+
+a[href="https://drive.google.com/file/d/1PVzYuXZtlxQZ35LHXgKj0Ir2pjjreHGb/view?usp=sharing"]:active {
+    color: rgb(31, 157, 189);
 }
