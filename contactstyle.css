@@ -1,50 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .navbar-brand {
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", serif;
 }
 
 .nav-link {
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", serif;
 }
 
 h1 {
-    font-family: 'Roboto Slab', serif;
-    background-image: linear-gradient(to left, violet, indigo, blue, green, #d2d20f, #eb9c0b, red);
+    font-family: "Roboto Slab", serif;
+    background-image: linear-gradient(to left,
+            violet,
+            indigo,
+            blue,
+            green,
+            #d2d20f,
+            #eb9c0b,
+            red);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 p {
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", serif;
 }
 
 div {
-    font-family: 'Roboto Slab', serif;
-    margin: auto;
+    font-family: "Roboto Slab", serif;
+    /* margin: auto; */
 }
 
-input[type=text],
+input[type="text"],
 textarea {
     text-align: center;
     color: black;
-    margin-left: 10px;
+    /* margin-left: 10px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 10px; */
 }
 
-input[type=submit] {
-    font-family: 'Roboto Slab', serif;
-    background-image: linear-gradient(to left, violet, indigo, blue, green, #d2d20f, #eb9c0b, red);
+input[type="submit"] {
+    font-family: "Roboto Slab", serif;
+    background-image: linear-gradient(to left,
+            violet,
+            indigo,
+            blue,
+            green,
+            #d2d20f,
+            #eb9c0b,
+            red);
     color: aliceblue;
     font-size: 18px;
-    margin-right: 10px;
+    /* margin-right: 10px;
     margin-left: 10px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 10px; */
 }
 
 a[href="mailto:jokeeleywork@gmail.com"]:link {
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", serif;
     color: rgb(53, 46, 201);
 }
 
@@ -61,7 +81,7 @@ a[href="mailto:jokeeleywork@gmail.com"]:active {
 }
 
 a[href="tel:+1(270)799-9699"]:link {
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", serif;
     color: rgb(53, 46, 201);
 }
 
@@ -75,4 +95,21 @@ a[href="tel:+1(270)799-9699"]:hover {
 
 a[href="tel:+1(270)799-9699"]:active {
     color: rgb(31, 157, 189);
+}
+
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+input[type="email"] {
+    margin-bottom: 10px;
+}
+
+.inputBtn {
+    margin-top: 10px;
 }
