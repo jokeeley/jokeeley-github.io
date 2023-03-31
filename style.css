@@ -1,3 +1,9 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
 .navbar-brand {
     font-family: 'Roboto Slab', serif;
 }
@@ -6,8 +12,15 @@
     font-family: 'Roboto Slab', serif;
 }
 
-p {
+p{
     font-family: 'Roboto Slab', serif;
+}
+
+.Me {
+    font-family: 'Roboto Slab', serif;
+    width: 60%;
+    display: flex;
+    align-items: flex-end;
 }
 
 .cont {
@@ -29,17 +42,17 @@ h2 {
 }
 
 .Pic {
-    width: 500px;
-    height: 500px;
+    width: 200px;
+    height: 200px;
     display: flex;
-    position: relative;
-    float: right;
+    align-items: flex-start;
 }
 
 #footer {
     width: 100%;
     height: 20%;
     position: absolute;
+    position: -webkit-sticky;
     bottom: 0;
     left: 0;
 }

@@ -26,7 +26,10 @@ h1 {
 .Bio {
     font-family: 'Roboto Slab', serif;
     display: flex;
+    flex-direction: column;
     justify-content: right;
+    margin: 5px;
+    height: 50%;
 }
 
 a[href="https://drive.google.com/file/d/1PVzYuXZtlxQZ35LHXgKj0Ir2pjjreHGb/view?usp=sharing"]:link {
