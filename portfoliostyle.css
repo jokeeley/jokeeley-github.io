@@ -29,16 +29,13 @@ p {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 200px;
+    /* Removed height and changed width to 100vw from 200px */
+    width: 100vw;
     border-radius: 10px;
 }
 
 #portfoliopix {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    /* removed all flex stuff from this. This is only being applied to am image tag which has no flex items inside of it */
     width: 200px;
     height: 200px;
     border-radius: 10px;
