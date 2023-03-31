@@ -76,24 +76,3 @@ a[href="tel:+1(270)799-9699"]:hover {
 a[href="tel:+1(270)799-9699"]:active {
     color: rgb(31, 157, 189);
 }
-
-.icons {
-    background-image: linear-gradient(to left, violet, indigo, blue, green, #d2d20f, #eb9c0b, red);
-    font-size: 48px;
-    margin: 0 10px;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    position:-webkit-sticky;
-    position: sticky;
-    bottom: 0;
-}
-
-a [href="https://www.linkedin.com/in/josie-keeley-008123140"]:visited{
-    background-image: linear-gradient(to left, violet, indigo, blue, green, #d2d20f, #eb9c0b, red);
-    font-size: 48px;
-    margin: 0 10px;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
